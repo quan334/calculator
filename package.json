@@ -1,0 +1,22 @@
+{
+  "name": "caculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+  "appId": "com.quand.calculator",
+  "win": {
+    "target": "nsis"
+  }
+}
+}
