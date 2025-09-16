@@ -55,4 +55,4 @@ npx electron-builder
 File cài đặt `.exe` sẽ nằm trong thư mục `dist/win-unpacked/`.
 
 ## 📥 Download app
-`https://github.com/quan334/calculator/releases/download/v1.0.0/calculator.exe`
+`https://github.com/quan334/calculator/releases/download/v1.0.0/calculator.zip`
