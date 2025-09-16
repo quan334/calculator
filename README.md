@@ -34,22 +34,26 @@ calculator/
 git clone https://github.com/quan334/calculator.git
 cd calculator
 ```
-### 2. Chạy app ngay (Windows)
-- Mở thư mục `dist/win-unpacked`
-- Chạy file `calculator.exe`
-
-## 💻 Dành cho Developer (muốn sửa code & build lại)
-
-Nếu bạn muốn chỉnh sửa code hoặc build lại app:
-
+### 2. Cài đặt dependencies
 ```bash
 npm install
-npm start
 ```
 
-Build lại app:
+### 3.Chạy app:
+```bash
+npm start
+```
+---
+## 📦 Build ứng dụng (tạo file .exe)
+Cài electron-builder:
+```bash
+npm install --save-dev electron-builder
+```
+Chạy build:
 ```bash
 npx electron-builder
 ```
-## 📥 Download
+File cài đặt `.exe` sẽ nằm trong thư mục `dist/win-unpacked/`.
 
+## 📥 Download app
+`https://github.com/quan334/calculator/releases/download/v1.0.0/calculator.exe`
