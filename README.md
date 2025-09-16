@@ -17,7 +17,6 @@ App được build từ phiên bản web (HTML/CSS/JS) và đóng gói thành �
 ## 📂 Cấu trúc dự án
 
 calculator/  
-│── dist/ # App đã build sẵn (chạy trực tiếp trong Windows)  
 │── index.html # Giao diện chính (HTML/CSS/JS)  
 │── main.js # Điểm khởi chạy Electron  
 │── preload.js # Script preload cho Electron  
